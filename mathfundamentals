@@ -1,0 +1,29 @@
+# #implement the power functionality using **
+x5= float(input("Enter a number which is to be powered"))
+print("the number entered is",x5)
+y5= float(input("Enter a number which is to be powered with x5"))
+print("the number entered is",y5)
+print(x5,'**',y5,'=',x5**y5)
+
+import math
+from math import pow
+x6= float(input("Enter a number which is to be powered"))
+print("the number entered is",x6)
+y6=float(input("Enter a  number which is to be powered with x6 "))
+print("the number entered is",y6)
+print(pow(x6,y6))
+
+# #implement the mod functionality %
+x7= float(input("Enter a number to be divided"))
+print("the number entered is",x7)
+y7= float(input("Enter another number to be divided"))
+print("the number entered is",y7)
+print(x7,'%',y7,'=',x7%y7)
+
+#import the math module, and implement Any one of the functionality
+
+import math
+from math import sqrt
+x8=float(input("Enter a number"))
+print("the number enetered is",x8)
+print(math.sqrt(x8))
